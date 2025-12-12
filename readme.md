@@ -17,18 +17,19 @@ This is a review like paper:
 
 **paper:** Cole JA, Luthey-Schulten Z. Whole Cell Modeling: From Single Cells to Colonies. Isr J Chem. 2014 Aug;54(8-9):1219-1229. doi: 10.1002/ijch.201300147. Epub 2014 Jul 31. PMID: 26989262; PMCID: PMC4792290.
 
-#### 4D-minimal cell in 105 min
+#### 1.4D-minimal cell in 105 min
 **Paper:** Thornburg et al. (2025) "Bringing the Genetically Minimal Cell to Life on a Computer in 4D." bioRxiv.
 
 **Method:** Hybrid 4D spatiotemporal modeling combining Lattice Microbes (stochastic reaction-diffusion), LAMMPS (Brownian dynamics for chromosome), and ODEs (metabolism). Simulates complete cell cycle of JCVI-syn3A with spatial heterogeneity.
 
 **GitHub:** [4DWCM](https://github.com/Luthey-Schulten-Lab/Minimal_Cell_4DWCM)
 
-#### Static one
+#### 2.Static one
 
 **Paper:** Thornburg et al. (2022) "Fundamental behaviors emerge from simulations of a living minimal cell." Cell.
 
 **Github:**: [MinCell](https://github.com/Luthey-Schulten-Lab/Minimal_Cell)
+
 ---
 
 ### Markus Covert Lab (Stanford University)
@@ -47,12 +48,12 @@ This is a review like paper:
 
 ### FBA amd FBA related models
 
-#### Yeast GEM 9:
+#### 1.Yeast GEM 9:
 **paper**: Zhang C, Sánchez BJ, Li F, Eiden CWQ, Scott WT, Liebal UW, Blank LM, Mengers HG, Anton M, Rangel AT, Mendoza SN, Zhang L, Nielsen J, Lu H, Kerkhoven EJ. Yeast9: a consensus genome-scale metabolic model for S. cerevisiae curated by the community. Mol Syst Biol. 2024 Oct;20(10):1134-1150. doi: 10.1038/s44320-024-00060-7. Epub 2024 Aug 12. PMID: 39134886; PMCID: PMC11450192.
 
 **Github**: [Yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM)
 
-### ETFL
+### 2.ETFL
 
 This is a version of FBA model that have thermo-constraint and various conservations. This have both yeast and ecoli model here. 
 
@@ -74,7 +75,7 @@ This is a version of FBA model that have thermo-constraint and various conservat
 
 **challege paper:** Roohani, Y. H. et al. Virtual Cell Challenge: Toward a Turing test for the virtual cell. Cell 188, 3370–3374 (2025).
 
-#### Model by Arc Institute: STATE (June 2025)
+#### STATE: Model by Arc Institute  (June 2025)
 
 **Paper:** Adduri, A. K. et al. Predicting cellular responses to perturbation across diverse contexts with State. 2025.06.26.661135 Preprint at https://doi.org/10.1101/2025.06.26.661135 (2025).
 
