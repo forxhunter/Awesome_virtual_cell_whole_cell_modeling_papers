@@ -91,6 +91,19 @@ This is a version of FBA model that have thermo-constraint and various conservat
 ---
 
 ## Software Ecosystem
+### Lattice Microbes - University of Illinois at Urbana-Champaign
+
+**PI:** Zan Luthey-Schulten
+
+**Method:** Stochastic reaction-diffusion simulator for modeling biochemical networks in 3D cellular environments. Uses lattice-based methods to simulate molecular interactions and spatial dynamics within cells.
+
+**GitHub:** [Lattice Microbes](https://github.com/Luthey-Schulten-Lab/Lattice_Microbes)
+
+**Document:**: 
+
+[UserGuide](https://luthey-schulten-chemistry.github.io/LM2.5_doc/)
+
+[Detailed Guide](https://forxhunter.github.io/Lattice_Microbes_DevelopDoc/)
 
 ### Virtual Cell (VCell) - UConn Health
 
@@ -113,6 +126,10 @@ This is a version of FBA model that have thermo-constraint and various conservat
 **Method:** Python-based compositional systems biology framework using "Process Bigraphs" for integrating models across scales and languages.
 
 **GitHub:** [Vivarium](https://github.com/vivarium-collective/vivarium-core)
+
+---
+
+
 
 ---
 
