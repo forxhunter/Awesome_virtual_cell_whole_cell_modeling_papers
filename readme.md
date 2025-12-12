@@ -88,46 +88,70 @@ This is a version of FBA model that have thermo-constraint and various conservat
 
 **GitHub:** [STATE](https://github.com/ArcInstitute/state)
 
+
 ---
 
 ## Software Ecosystem
-### Lattice Microbes - University of Illinois at Urbana-Champaign
+# Comprehensive Virtual Cell & Biological Modeling Platforms
 
-**PI:** Zan Luthey-Schulten
+### **1. Integrated & Multiscale Modeling Platforms**
+These platforms are designed to bridge different scales (molecular to cellular) or integrate various modeling approaches (deterministic, stochastic, spatial) into a unified environment.
 
-**Method:** Stochastic reaction-diffusion simulator for modeling biochemical networks in 3D cellular environments. Uses lattice-based methods to simulate molecular interactions and spatial dynamics within cells.
+| Platform | Key Developer / PI | Methodology & Key Features | Links |
+| :--- | :--- | :--- | :--- |
+| **Virtual Cell (VCell)** | **Leslie Loew** (UConn Health) | [cite_start]**Unified Environment:** Integrates reaction-diffusion, spatial modeling, rule-based modeling (BioNetGen), and particle-based simulation (SpringSaLaD) in one interface[cite: 484, 133]. | [Website](https://vcell.org/) |
+| **Vivarium** | **Eran Agmon** (UConn) | **Integrative Framework:** Python-based engine using "Process Bigraphs" to composite diverse models across scales and languages into a single simulation. | [GitHub](https://github.com/vivarium-collective/vivarium-core) |
+| **Morpheus** | **Jörn Starruß** (TU Dresden) | **Hybrid Cell-Based:** User-friendly GUI for multiscale modeling. [cite_start]Combines Cellular Potts Models (CPM) for mechanics with ODE/PDE systems for biochemistry[cite: 830, 145]. | [Website](https://morpheus.gitlab.io) |
 
-**GitHub:** [Lattice Microbes](https://github.com/Luthey-Schulten-Lab/Lattice_Microbes)
+### **2. Multicellular & Tissue Simulation (Agent-Based)**
+These tools focus on the behavior of cell populations, tissue mechanics, and the microenvironment, often using Agent-Based Modeling (ABM) or the Cellular Potts Model (CPM/GGH).
 
-**Document:**: 
+| Platform | Key Developer / PI | Methodology & Key Features | Links |
+| :--- | :--- | :--- | :--- |
+| **PhysiCell** | **Paul Macklin** (Indiana Univ) | [cite_start]**Tissue-Scale ABM:** Optimized for 3D multicellular systems, focusing on cell mechanics, diffusion fields, and tumor microenvironments[cite: 804, 142]. | [Website](http://physicell.org) |
+| **CompuCell3D** | **Maciej Swat** | **Cellular Potts Model:** Couples cell mechanics and shape changes with reaction-diffusion processes. [cite_start]Supports Python scripting for complex tissue logic[cite: 816, 142]. | [Website](https://compucell3d.org) |
+| **Chaste** | **Gary Mirams** (Nottingham) | [cite_start]**High-Performance C++:** A modular library specialized for cardiac electrophysiology, soft tissue mechanics, and cancer modeling[cite: 844, 145]. | [Website](https://chaste.github.io) |
 
-[UserGuide](https://luthey-schulten-chemistry.github.io/LM2.5_doc/)
+### **3. Intracellular Network & Pathway Simulators**
+These tools specialize in modeling the biochemical logic, signaling pathways, and reaction kinetics within a cell, using ODEs or rule-based definitions.
 
-[Detailed Guide](https://forxhunter.github.io/Lattice_Microbes_DevelopDoc/)
+| Platform | Key Developer / PI | Methodology & Key Features | Links |
+| :--- | :--- | :--- | :--- |
+| **COPASI** | **Stefan Hoops** (Virginia Tech) | **Biochemical Kinetics:** Simulates networks using ODEs/SDEs. [cite_start]Robust tools for parameter estimation, sensitivity analysis, and time-course analysis[cite: 761, 142]. | [Website](http://copasi.org) |
+| **BioNetGen** | **James Faeder** (Pitt) | [cite_start]**Rule-Based Modeling:** Uses BNGL to model signal transduction, handling the combinatorial complexity of protein-protein interactions[cite: 775, 145]. | [Website](https://bionetgen.org) |
+| **PySB** | **Carlos Lopez** (Altos Labs) | **Python Framework:** A programming environment for biological models. [cite_start]Interoperable with BioNetGen and Kappa for composable modeling[cite: 782, 145]. | [Website](https://pysb.org) |
+| **CellNOpt** | **C. Terfve** | [cite_start]**Logic Modeling:** Trains protein signaling networks to data using logic, fuzzy logic, or differential logic formalisms[cite: 788, 145]. | [Website](https://saezlab.github.io/CellNOptR) |
 
-### Virtual Cell (VCell) - UConn Health
+### **4. Stochastic & Particle-Based Simulators**
+These tools model biology at the highest resolution, tracking individual molecules or particles to capture spatial stochasticity and diffusion in 3D.
 
-**PI:** Leslie Loew
+| Platform | Key Developer / PI | Methodology & Key Features | Links |
+| :--- | :--- | :--- | :--- |
+| **Lattice Microbes** | **Zan Luthey-Schulten** (UIUC) | **Stochastic Reaction-Diffusion:** Simulates biochemical networks in realistic 3D cellular geometries using lattice-based methods on GPUs. | [GitHub](https://github.com/Luthey-Schulten-Lab/Lattice_Microbes) |
+| **Smoldyn** | **Steve Andrews** (Fred Hutch) | [cite_start]**Particle-Based:** Simulates molecular diffusion, surface interactions, and excluded volume with high spatial precision[cite: 834, 145]. | [Website](http://www.smoldyn.org) |
+| **MCell** | **T. Bartol / T. Sejnowski** (Salk) | **Monte Carlo:** 3D reaction-diffusion simulator. [cite_start]Highly integrated with Blender for complex geometry construction[cite: 779, 145]. | [Website](https://mcell.org) |
+| **ReaDDy** | **Frank Noé** (FU Berlin) | [cite_start]**Interacting Particles:** Software for particle-based reaction dynamics that accounts for crowding and molecular potentials[cite: 839, 145]. | [Website](https://readdy.github.io) |
 
-**Method:** Reaction-diffusion and spatial modeling platform. Integrates rule-based modeling (BioNetGen), moving boundary problems, and mesoscale simulations using particle-based methods (SpringSaLaD).
+### **5. AI: Generative Models & Omics Analysis**
+These AI models use Deep Learning (VAEs, Transformers, GNNs) to integrate multi-omics data, denoise datasets, and infer cell states.
 
-**Website:** https://vcell.org/
+| Model | Key Reference | Methodology & Key Features | Links |
+| :--- | :--- | :--- | :--- |
+| **scVI / totalVI** | **Gayoso et al.** | [cite_start]**Deep Generative (VAE):** Handles batch integration and joint probabilistic modeling of RNA and protein single-cell data[cite: 498, 100]. | [GitHub](https://github.com/scverse/scvi-tools) |
+| **GeneFormer** | **Theodoris et al.** | **Foundation Model:** Large-scale transformer pretrained on gene expression. [cite_start]Enables transfer learning for cell-type and gene-function inference[cite: 641, 102]. | [GitHub](https://github.com/jkobject/geneformer) |
+| **GLUE** | **Cao et al.** | [cite_start]**Multi-Omics Graph:** Uses regulatory network priors to project heterogeneous single-cell omics into a shared embedding space[cite: 565, 100]. | [GitHub](https://github.com/gao-lab/GLUE) |
+| **GraphST** | **Long et al.** | [cite_start]**Spatial GNN:** Graph neural network that couples expression data with spatial proximity for cell-type identification[cite: 100]. | [GitHub](https://github.com/JinmiaoChenLab/GraphST) |
 
-**GitHub:** [Virtual Cell](https://github.com/virtualcell/vcell)
+### **6. AI: Perturbation & Drug Response Prediction**
+These models specifically target the "Virtual Cell" goal of predicting how a cell reacts to drugs or genetic edits.
 
----
+| Model | Key Reference | Methodology & Key Features | Links |
+| :--- | :--- | :--- | :--- |
+| **GEARS** | **Roohani et al.** | [cite_start]**Knowledge Graph AI:** Predicts transcriptional outcomes of novel multi-gene perturbations using knowledge graphs[cite: 645, 100]. | [GitHub](https://github.com/snap-stanford/GEARS) |
+| **DrugCell** | **Kuenzi / Ideker** | [cite_start]**Interpretable AI:** Predicts drug response by unifying transcriptomes with drug molecular graphs and biological target networks[cite: 100]. | [GitHub](https://github.com/idekerlab/DrugCell) |
 
-### Vivarium - University of Connecticut
 
-**PI:** Eran Agmon
-
-**Paper:** Agmon E, Spangler RK, Skalnik CJ, Poole W, Peirce SM, Morrison JH, Covert MW. "Vivarium: an interface and engine for integrative multiscale modeling in computational biology." Bioinformatics. 2022.
-
-**Method:** Python-based compositional systems biology framework using "Process Bigraphs" for integrating models across scales and languages.
-
-**GitHub:** [Vivarium](https://github.com/vivarium-collective/vivarium-core)
-
----
+> REferences: Ma, C., Zhang, H., Rao, Y. et al. AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential. npj Digit. Med. (2025). https://doi.org/10.1038/s41746-025-02198-6
 
 
 
