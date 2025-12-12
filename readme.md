@@ -65,8 +65,11 @@ This is a version of FBA model that have thermo-constraint and various conservat
 **paper:** Oftadeh, O., Salvy, P., Masid, M. et al. A genome-scale metabolic model of Saccharomyces cerevisiae that integrates expression constraints and reaction thermodynamics. Nat Commun 12, 4790 (2021). https://doi.org/10.1038/s41467-021-25158-6
 
 **Github:** [ETFL](https://github.com/EPFL-LCSB/etfl.git)
+
 **Github:** [ecoli-ETFL](https://github.com/EPFL-LCSB/ecetfl/)
+
 **Github:** [yeast-ETFL](https://github.com/EPFL-LCSB/yetfl)
+
 ---
 
 ## AI/Data-Driven Modeling
@@ -81,7 +84,7 @@ This is a version of FBA model that have thermo-constraint and various conservat
 
 **Paper:** Adduri, A. K. et al. Predicting cellular responses to perturbation across diverse contexts with State. 2025.06.26.661135 Preprint at https://doi.org/10.1101/2025.06.26.661135 (2025).
 
-**news reprot:** [Arc Institute’s first virtual cell model: State](https://arcinstitute.org/news/virtual-cell-model-state )
+**news report:** [Arc Institute’s first virtual cell model: State](https://arcinstitute.org/news/virtual-cell-model-state )
 
 
 **Method:** Centralized open-source hub with NVIDIA GPU infrastructure hosting models (CodonFM, MONAI), datasets, and benchmarks.
