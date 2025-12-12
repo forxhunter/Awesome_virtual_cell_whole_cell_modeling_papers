@@ -95,7 +95,6 @@ This is a version of FBA model that have thermo-constraint and various conservat
 ---
 
 ## Software Ecosystem
-# Comprehensive Virtual Cell & Biological Modeling Platforms
 
 ### **1. Integrated & Multiscale Modeling Platforms**
 These platforms are designed to bridge different scales (molecular to cellular) or integrate various modeling approaches (deterministic, stochastic, spatial) into a unified environment.
