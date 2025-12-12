@@ -8,6 +8,8 @@ A curated collection of important papers, methods, and GitHub repositories for v
 - [AI/Data-Driven Modeling](#aidata-driven-modeling)
 - [Software Ecosystem](#software-ecosystem)
 - [Others](#other-papers)
+
+![digital-twin](./figures/budding_yeaset_digital_twin_shrink.png)
 ---
 
 ## Physics-Based Modeling
