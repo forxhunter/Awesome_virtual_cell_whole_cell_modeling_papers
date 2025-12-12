@@ -14,6 +14,8 @@ A curated collection of important papers, methods, and GitHub repositories for v
 
 ## Physics-Based Modeling
 
+![physicswcm](./figures/wcm_phsics.png)
+
 ### Zan Luthey-Schulten Lab (University of Illinois at Urbana-Champaign)
 This is a review like paper:
 
@@ -74,6 +76,8 @@ This is a version of FBA model that have thermo-constraint and various conservat
 ---
 
 ## AI/Data-Driven Modeling
+
+![AI_wcm](./figures/wcm_AI.png)
 
 ### AI Virtual Cell (CZI Biohub / Arc Institute)
 
