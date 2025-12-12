@@ -60,6 +60,7 @@ This is a review like paper:
 This is a version of FBA model that have thermo-constraint and various conservations. This have both yeast and ecoli model here. 
 
 **paper:** Salvy, P., Hatzimanikatis, V. The ETFL formulation allows multi-omics integration in thermodynamics-compliant metabolism and expression models. Nat Commun 11, 30 (2020) doi:10.1038/s41467-019-13818-7
+
 **paper:** Oftadeh, O. & Hatzimanikatis, V. Genome-scale models of metabolism and expression predict the metabolic burden of recombinant protein expression. Metabolic Engineering 84, 109–116 (2024). doi: 10.1016/j.ymben.2024.06.005
 
 **paper:** Oftadeh, O., Salvy, P., Masid, M. et al. A genome-scale metabolic model of Saccharomyces cerevisiae that integrates expression constraints and reaction thermodynamics. Nat Commun 12, 4790 (2021). https://doi.org/10.1038/s41467-021-25158-6
