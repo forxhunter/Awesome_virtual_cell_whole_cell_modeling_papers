@@ -151,7 +151,7 @@ These models specifically target the "Virtual Cell" goal of predicting how a cel
 | **DrugCell** | **Kuenzi / Ideker** |  **Interpretable AI:** Predicts drug response by unifying transcriptomes with drug molecular graphs and biological target networks. | [GitHub](https://github.com/idekerlab/DrugCell) |
 
 
-> REferences: Ma, C., Zhang, H., Rao, Y. et al. AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential. npj Digit. Med. (2025). https://doi.org/10.1038/s41746-025-02198-6
+> References: Ma, C., Zhang, H., Rao, Y. et al. AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential. npj Digit. Med. (2025). https://doi.org/10.1038/s41746-025-02198-6
 
 
 
@@ -167,5 +167,5 @@ Contributions welcome! Please add papers, methods, and repositories following th
 
 ## License
 
-See [LICENSE](LICENSE) file for details.
+MIT licnese. See [LICENSE](LICENSE) file for details.
 
