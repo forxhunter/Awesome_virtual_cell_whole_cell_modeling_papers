@@ -9,12 +9,12 @@ A curated collection of important papers, methods, and GitHub repositories for v
 - [Software Ecosystem](#software-ecosystem)
 - [Others](#other-papers)
 
-![digital-twin](./figures/budding_yeaset_digital_twin_shrink.png)
+<img src="./figures/budding_yeaset_digital_twin_shrink.png" alt="digital-twin" width="600">
 ---
 
 ## Physics-Based Modeling
 
-![physicswcm](./figures/wcm_phsics.png)
+<img src="./figures/wcm_phsics.png" alt="physicswcm" width="300">
 
 ### Zan Luthey-Schulten Lab (University of Illinois at Urbana-Champaign)
 This is a review like paper:
@@ -77,7 +77,7 @@ This is a version of FBA model that have thermo-constraint and various conservat
 
 ## AI/Data-Driven Modeling
 
-![AI_wcm](./figures/wcm_AI.png)
+<img src="./figures/wcm_AI.png" alt="AI_wcm" width="300">
 
 ### AI Virtual Cell (CZI Biohub / Arc Institute)
 
