@@ -10,6 +10,7 @@ A curated collection of important papers, methods, and GitHub repositories for v
 - [Others](#other-papers)
 
 <img src="./figures/budding_yeaset_digital_twin_shrink.png" alt="digital-twin" width="600">
+
 ---
 
 ## Physics-Based Modeling
@@ -17,61 +18,78 @@ A curated collection of important papers, methods, and GitHub repositories for v
 <img src="./figures/wcm_phsics.png" alt="physicswcm" width="300">
 
 ### Zan Luthey-Schulten Lab (University of Illinois at Urbana-Champaign)
-This is a review like paper:
 
-**paper:** Cole JA, Luthey-Schulten Z. Whole Cell Modeling: From Single Cells to Colonies. Isr J Chem. 2014 Aug;54(8-9):1219-1229. doi: 10.1002/ijch.201300147. Epub 2014 Jul 31. PMID: 26989262; PMCID: PMC4792290.
+*   **[Whole Cell Modeling: From Single Cells to Colonies](https://doi.org/10.1002/ijch.201300147)**
+    *   Cole JA, Luthey-Schulten Z. (2014) *Isr. J. Chem.*
+    *   *Note: A foundational review.*
 
-#### 1.4D-minimal cell in 105 min
-**Paper:** Thornburg et al. (2025) "Bringing the Genetically Minimal Cell to Life on a Computer in 4D." bioRxiv.
+*   **Bringing the Genetically Minimal Cell to Life on a Computer in 4D**
+    *   Thornburg et al. (2025) *bioRxiv*.
+    *   **Method:** Hybrid 4D spatiotemporal modeling combining Lattice Microbes (stochastic reaction-diffusion), LAMMPS (Brownian dynamics for chromosome), and ODEs (metabolism).
+    *   **Code:** [4DWCM](https://github.com/Luthey-Schulten-Lab/Minimal_Cell_4DWCM)
 
-**Method:** Hybrid 4D spatiotemporal modeling combining Lattice Microbes (stochastic reaction-diffusion), LAMMPS (Brownian dynamics for chromosome), and ODEs (metabolism). Simulates complete cell cycle of JCVI-syn3A with spatial heterogeneity.
-
-**GitHub:** [4DWCM](https://github.com/Luthey-Schulten-Lab/Minimal_Cell_4DWCM)
-
-#### 2.Static one
-
-**Paper:** Thornburg et al. (2022) "Fundamental behaviors emerge from simulations of a living minimal cell." Cell.
-
-**Github:**: [MinCell](https://github.com/Luthey-Schulten-Lab/Minimal_Cell)
-
----
+*   **[Fundamental behaviors emerge from simulations of a living minimal cell](https://doi.org/10.1016/j.cell.2021.12.025)**
+    *   Thornburg et al. (2022) *Cell*.
+    *   **Code:** [MinCell](https://github.com/Luthey-Schulten-Lab/Minimal_Cell)
 
 ### Markus Covert Lab (Stanford University)
 
-**Paper:** Ahn-Horst, T.A., Mille, L.S., Sun, G. et al. An expanded whole-cell model of E. coli links cellular physiology with mechanisms of growth rate control. npj Syst Biol Appl 8, 30 (2022). https://doi.org/10.1038/s41540-022-00242-9
+*   **[A whole-cell computational model predicts phenotype from genotype](https://doi.org/10.1016/j.cell.2012.05.022)**
+    *   Karr JR, Sanghvi JC, Macklin DN, et al. (2012) *Cell*.
+    *   **Code:** [WholeCell](https://github.com/CovertLab/WholeCell)
 
-**paper:** Sun G, Ahn-Horst TA, Covert MW.2021.The E. coli Whole-Cell Modeling Project. 9:eESP-0001-2020.https://doi.org/10.1128/ecosalplus.ESP-0001-2020
+*   **[Simultaneous cross-evaluation of heterogeneous E. coli datasets via mechanistic simulation](https://doi.org/10.1126/science.aav3751)**
+    *   Macklin DN et al. (2020) *Science*.
+    *   **Code:** [WCM_ecoli](https://github.com/CovertLab/WholeCellEcoliRelease)
 
-**paper:** Macklin, D. N. et al. Simultaneous cross-evaluation of heterogeneous E. coli datasets via mechanistic simulation. Science 369, eaav3751 (2020).
+*   **[The E. coli Whole-Cell Modeling Project](https://doi.org/10.1128/ecosalplus.ESP-0001-2020)**
+    *   Sun G, Ahn-Horst TA, Covert MW. (2021) *EcoSal Plus*.
+
+*   **[An expanded whole-cell model of E. coli links cellular physiology with mechanisms of growth rate control](https://doi.org/10.1038/s41540-022-00242-9)**
+    *   Ahn-Horst TA, Mille LS, Sun G, et al. (2022) *npj Syst Biol Appl*.
+
+### Roseanna Zia Lab (University of Missouri)
+*Focus: Colloidal-scale physics, hydrodynamics, and crowding.*
+
+*   **[The matter/life nexus in biological cells](https://arxiv.org/abs/2412.01743)**
+    *   Sivasankar VS, Zia RN. (2024) *arXiv:2412.01743* [physics.bio-ph].
+    *   *Note: Comprehensive review on physics-based modeling and the matter-life interface.*
 
 
-**GitHub:** [WCM_ecoli](https://github.com/CovertLab/WholeCellEcoliRelease)
 
+### Structural & Molecular Dynamics Models
 
----
+*   **[Molecular dynamics simulation of an entire cell](https://doi.org/10.3389/fchem.2023.1106495)** (Martini Model)
+    *   Stevens JA et al. (2023) *Front. Chem.*
+    *   *Group:* Martini Group (University of Groningen).
 
-### FBA amd FBA related models
+*   **[Building structural models of a whole mycoplasma cell](https://doi.org/10.1016/j.jmb.2021.167351)**
+    *   Maritan M, Autin L, Karr J, Covert MW, Olson AJ, Goodsell DS. (2022) *J. Mol. Biol.*
+    *   *Group:* Olson/Goodsell Lab (Scripps Research).
 
-#### 1.Yeast GEM 9:
-**paper**: Zhang C, Sánchez BJ, Li F, Eiden CWQ, Scott WT, Liebal UW, Blank LM, Mengers HG, Anton M, Rangel AT, Mendoza SN, Zhang L, Nielsen J, Lu H, Kerkhoven EJ. Yeast9: a consensus genome-scale metabolic model for S. cerevisiae curated by the community. Mol Syst Biol. 2024 Oct;20(10):1134-1150. doi: 10.1038/s44320-024-00060-7. Epub 2024 Aug 12. PMID: 39134886; PMCID: PMC11450192.
+### Constraint-Based & Metabolic Models (FBA)
 
-**Github**: [Yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM)
+#### 1. Yeast-GEM
+*   **[Yeast9: a consensus genome-scale metabolic model for S. cerevisiae curated by the community](https://doi.org/10.1038/s44320-024-00060-7)**
+    *   Zhang C et al. (2024) *Mol. Syst. Biol.*
+    *   **Code:** [Yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM)
 
-### 2.ETFL
+#### 2. ETFL (Expression and Thermodynamics Flux)
+*Includes thermodynamics constraints and macromolecular expression.*
 
-This is a version of FBA model that have thermo-constraint and various conservations. This have both yeast and ecoli model here. 
+*   **[The ETFL formulation allows multi-omics integration in thermodynamics-compliant metabolism and expression models](https://doi.org/10.1038/s41467-019-13818-7)**
+    *   Salvy P, Hatzimanikatis V. (2020) *Nat. Commun.*
 
-**paper:** Salvy, P., Hatzimanikatis, V. The ETFL formulation allows multi-omics integration in thermodynamics-compliant metabolism and expression models. Nat Commun 11, 30 (2020) doi:10.1038/s41467-019-13818-7
+*   **[A genome-scale metabolic model of Saccharomyces cerevisiae that integrates expression constraints and reaction thermodynamics](https://doi.org/10.1038/s41467-021-25158-6)**
+    *   Oftadeh O, Salvy P, Masid M, et al. (2021) *Nat. Commun.*
 
-**paper:** Oftadeh, O. & Hatzimanikatis, V. Genome-scale models of metabolism and expression predict the metabolic burden of recombinant protein expression. Metabolic Engineering 84, 109–116 (2024). doi: 10.1016/j.ymben.2024.06.005
+*   **[Genome-scale models of metabolism and expression predict the metabolic burden of recombinant protein expression](https://doi.org/10.1016/j.ymben.2024.06.005)**
+    *   Oftadeh O, Hatzimanikatis V. (2024) *Metab. Eng.*
 
-**paper:** Oftadeh, O., Salvy, P., Masid, M. et al. A genome-scale metabolic model of Saccharomyces cerevisiae that integrates expression constraints and reaction thermodynamics. Nat Commun 12, 4790 (2021). https://doi.org/10.1038/s41467-021-25158-6
-
-**Github:** [ETFL](https://github.com/EPFL-LCSB/etfl.git)
-
-**Github:** [ecoli-ETFL](https://github.com/EPFL-LCSB/ecetfl/)
-
-**Github:** [yeast-ETFL](https://github.com/EPFL-LCSB/yetfl)
+*   **Code:**
+    *   [ETFL (Generic)](https://github.com/EPFL-LCSB/etfl.git)
+    *   [ecoli-ETFL](https://github.com/EPFL-LCSB/ecetfl/)
+    *   [yeast-ETFL](https://github.com/EPFL-LCSB/yetfl)
 
 ---
 
@@ -81,28 +99,26 @@ This is a version of FBA model that have thermo-constraint and various conservat
 
 ### AI Virtual Cell (CZI Biohub / Arc Institute)
 
-**intiative paper:** Bunne, C. et al. How to build the virtual cell with artificial intelligence: Priorities and opportunities. Cell 187, 7045–7063 (2024).
+*   **Initiative:** [How to build the virtual cell with artificial intelligence: Priorities and opportunities](https://doi.org/10.1016/j.cell.2024.09.006)
+    *   Bunne C et al. (2024) *Cell*.
 
-**challege paper:** Roohani, Y. H. et al. Virtual Cell Challenge: Toward a Turing test for the virtual cell. Cell 188, 3370–3374 (2025).
+*   **Challenge:** [Virtual Cell Challenge: Toward a Turing test for the virtual cell](https://doi.org/10.1016/j.cell.2025.01.001)
+    *   Roohani YH et al. (2025) *Cell*.
 
-#### STATE: Model by Arc Institute  (June 2025)
+#### STATE: Model by Arc Institute (June 2025)
 
-**Paper:** Adduri, A. K. et al. Predicting cellular responses to perturbation across diverse contexts with State. 2025.06.26.661135 Preprint at https://doi.org/10.1101/2025.06.26.661135 (2025).
-
-**news report:** [Arc Institute’s first virtual cell model: State](https://arcinstitute.org/news/virtual-cell-model-state )
-
-
-**Method:** Centralized open-source hub with NVIDIA GPU infrastructure hosting models (CodonFM, MONAI), datasets, and benchmarks.
-
-**GitHub:** [STATE](https://github.com/ArcInstitute/state)
-
+*   **[Predicting cellular responses to perturbation across diverse contexts with State](https://doi.org/10.1101/2025.06.26.661135)**
+    *   Adduri AK et al. (2025) *bioRxiv*.
+    *   **News:** [Arc Institute’s first virtual cell model: State](https://arcinstitute.org/news/virtual-cell-model-state)
+    *   **Method:** Centralized open-source hub with NVIDIA GPU infrastructure hosting models (CodonFM, MONAI), datasets, and benchmarks.
+    *   **Code:** [STATE](https://github.com/ArcInstitute/state)
 
 ---
 
 ## Software Ecosystem
 
-### **1. Integrated & Multiscale Modeling Platforms**
-These platforms are designed to bridge different scales (molecular to cellular) or integrate various modeling approaches (deterministic, stochastic, spatial) into a unified environment.
+### 1. Integrated & Multiscale Modeling Platforms
+*These platforms are designed to bridge different scales (molecular to cellular) or integrate various modeling approaches (deterministic, stochastic, spatial) into a unified environment.*
 
 | Platform | Key Developer / PI | Methodology & Key Features | Links |
 | :--- | :--- | :--- | :--- |
@@ -110,8 +126,8 @@ These platforms are designed to bridge different scales (molecular to cellular) 
 | **Vivarium** | **Eran Agmon** (UConn) | **Integrative Framework:** Python-based engine using "Process Bigraphs" to composite diverse models across scales and languages into a single simulation. | [GitHub](https://github.com/vivarium-collective/vivarium-core) |
 | **Morpheus** | **Jörn Starruß** (TU Dresden) | **Hybrid Cell-Based:** User-friendly GUI for multiscale modeling. Combines Cellular Potts Models (CPM) for mechanics with ODE/PDE systems for biochemistry. | [Website](https://morpheus.gitlab.io) |
 
-### **2. Multicellular & Tissue Simulation (Agent-Based)**
-These tools focus on the behavior of cell populations, tissue mechanics, and the microenvironment, often using Agent-Based Modeling (ABM) or the Cellular Potts Model (CPM/GGH).
+### 2. Multicellular & Tissue Simulation (Agent-Based)
+*These tools focus on the behavior of cell populations, tissue mechanics, and the microenvironment, often using Agent-Based Modeling (ABM) or the Cellular Potts Model (CPM/GGH).*
 
 | Platform | Key Developer / PI | Methodology & Key Features | Links |
 | :--- | :--- | :--- | :--- |
@@ -119,8 +135,8 @@ These tools focus on the behavior of cell populations, tissue mechanics, and the
 | **CompuCell3D** | **Maciej Swat** | **Cellular Potts Model:** Couples cell mechanics and shape changes with reaction-diffusion processes. Supports Python scripting for complex tissue logic. | [Website](https://compucell3d.org) |
 | **Chaste** | **Gary Mirams** (Nottingham) | **High-Performance C++:** A modular library specialized for cardiac electrophysiology, soft tissue mechanics, and cancer modeling. | [Website](https://chaste.github.io) |
 
-### **3. Intracellular Network & Pathway Simulators**
-These tools specialize in modeling the biochemical logic, signaling pathways, and reaction kinetics within a cell, using ODEs or rule-based definitions.
+### 3. Intracellular Network & Pathway Simulators
+*These tools specialize in modeling the biochemical logic, signaling pathways, and reaction kinetics within a cell, using ODEs or rule-based definitions.*
 
 | Platform | Key Developer / PI | Methodology & Key Features | Links |
 | :--- | :--- | :--- | :--- |
@@ -129,8 +145,8 @@ These tools specialize in modeling the biochemical logic, signaling pathways, an
 | **PySB** | **Carlos Lopez** (Altos Labs) | **Python Framework:** A programming environment for biological models. Interoperable with BioNetGen and Kappa for composable modeling. | [Website](https://pysb.org) |
 | **CellNOpt** | **C. Terfve** | **Logic Modeling:** Trains protein signaling networks to data using logic, fuzzy logic, or differential logic formalisms. | [Website](https://saezlab.github.io/CellNOptR) |
 
-### **4. Stochastic & Particle-Based Simulators**
-These tools model biology at the highest resolution, tracking individual molecules or particles to capture spatial stochasticity and diffusion in 3D.
+### 4. Stochastic & Particle-Based Simulators
+*These tools model biology at the highest resolution, tracking individual molecules or particles to capture spatial stochasticity and diffusion in 3D.*
 
 | Platform | Key Developer / PI | Methodology & Key Features | Links |
 | :--- | :--- | :--- | :--- |
@@ -139,8 +155,8 @@ These tools model biology at the highest resolution, tracking individual molecul
 | **MCell** | **T. Bartol / T. Sejnowski** (Salk) | **Monte Carlo:** 3D reaction-diffusion simulator. Highly integrated with Blender for complex geometry construction. | [Website](https://mcell.org) |
 | **ReaDDy** | **Frank Noé** (FU Berlin) | **Interacting Particles:** Software for particle-based reaction dynamics that accounts for crowding and molecular potentials. | [Website](https://readdy.github.io) |
 
-### **5. AI: Generative Models & Omics Analysis**
-These AI models use Deep Learning (VAEs, Transformers, GNNs) to integrate multi-omics data, denoise datasets, and infer cell states.
+### 5. AI: Generative Models & Omics Analysis
+*These AI models use Deep Learning (VAEs, Transformers, GNNs) to integrate multi-omics data, denoise datasets, and infer cell states.*
 
 | Model | Key Reference | Methodology & Key Features | Links |
 | :--- | :--- | :--- | :--- |
@@ -149,18 +165,15 @@ These AI models use Deep Learning (VAEs, Transformers, GNNs) to integrate multi-
 | **GLUE** | **Cao et al.** | **Multi-Omics Graph:** Uses regulatory network priors to project heterogeneous single-cell omics into a shared embedding space. | [GitHub](https://github.com/gao-lab/GLUE) |
 | **GraphST** | **Long et al.** | **Spatial GNN:** Graph neural network that couples expression data with spatial proximity for cell-type identification. | [GitHub](https://github.com/JinmiaoChenLab/GraphST) |
 
-### **6. AI: Perturbation & Drug Response Prediction**
-These models specifically target the "Virtual Cell" goal of predicting how a cell reacts to drugs or genetic edits.
+### 6. AI: Perturbation & Drug Response Prediction
+*These models specifically target the "Virtual Cell" goal of predicting how a cell reacts to drugs or genetic edits.*
 
 | Model | Key Reference | Methodology & Key Features | Links |
 | :--- | :--- | :--- | :--- |
 | **GEARS** | **Roohani et al.** | **Knowledge Graph AI:** Predicts transcriptional outcomes of novel multi-gene perturbations using knowledge graphs. | [GitHub](https://github.com/snap-stanford/GEARS) |
 | **DrugCell** | **Kuenzi / Ideker** |  **Interpretable AI:** Predicts drug response by unifying transcriptomes with drug molecular graphs and biological target networks. | [GitHub](https://github.com/idekerlab/DrugCell) |
 
-
-> References: Ma, C., Zhang, H., Rao, Y. et al. AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential. npj Digit. Med. (2025). https://doi.org/10.1038/s41746-025-02198-6
-
-
+> **References:** Ma C, Zhang H, Rao Y, et al. (2025) "AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential." *npj Digit. Med.* [DOI](https://doi.org/10.1038/s41746-025-02198-6)
 
 ---
 
@@ -174,5 +187,4 @@ Contributions welcome! Please add papers, methods, and repositories following th
 
 ## License
 
-MIT licnese. See [LICENSE](LICENSE) file for details.
-
+MIT license. See [LICENSE](LICENSE) file for details.
